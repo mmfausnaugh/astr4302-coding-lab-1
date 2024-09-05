@@ -17,12 +17,12 @@ print(len(c2.vmag[m2]))
 
 
 d1 = 10**(0.2*c1.modz[~m1])*10/1.e6
-print(d1)
+print(len(d1))
 d2 = 10**(0.2*c2.modz[~m2])*10/1.e6
-print(d2)
+print(len(d2))
 
 with open('Galaxy-Data.txt','w') as fout:
-    fout.write('{:30s}{:>15s}{:>15s}\n'.format('Object','Vmag','Distance_Mpc'))
+    fout.write('#{:29s}{:>15s}{:>15s}\n'.format('Object','Vmag','Distance_Mpc'))
     for ii in range(len(c1.vmag[~m1])):
         fout.write('{:30s}{:>15.4f}{:>15.4e}\n'.format(c1.objname[~m1][ii],
                                                      c1.vmag[~m1][ii],

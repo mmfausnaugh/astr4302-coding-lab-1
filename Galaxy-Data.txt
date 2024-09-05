@@ -1,4 +1,4 @@
-Object                                   Vmag   Distance_Mpc
+#Object                                  Vmag   Distance_Mpc
 PGC095477                             16.2100     1.4441e+02
 PGC095502                             16.3100     2.7900e+02
 PGC097491                             16.3450     2.5763e+02
